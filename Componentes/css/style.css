@@ -1,0 +1,184 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Signika:wght@300;400;500;600;700&display=swap');
+/**{font-family: 'Signika', sans-serif;}*/
+
+
+html{
+  scroll-behavior: smooth;
+}
+
+body{
+    background-color:#f1faee; 
+    padding: 0;
+    margin: 0;
+}
+
+footer{
+  color: #fff;
+  background: #00a9a0;
+}
+
+/*Header*/
+
+.fundoMenu{
+ /* background: #a4ede8f0;*/
+ background: #fff;
+}
+
+.imgHeader{
+  padding: 0px!important;
+}
+
+.fontCorMenu{
+  color:#008378;
+}
+
+.fontCorMenu:hover{
+  color:#054943;
+}
+
+.fontSobre{
+  font-size: 25px;;
+}
+
+/*FIM header*/
+
+
+/*PORTIFolio*/
+.textPort{
+    font-size: 20px;;
+}
+
+.efeitoFade{
+  opacity:1;
+}
+
+.efeitoFade:hover{
+  transition: 0.5s;
+  opacity:0.5;
+}
+
+.resolucaoGaleria{
+  width: 100%;
+}
+
+.list-group-item.active {
+  z-index: 2;
+  color: #fff;
+  background-color: #08c4b9!important;
+  border-color: #20a79f!important;
+} /*FIM PORT*/
+
+    /*CONTATO*/
+
+    .botaoRede{
+      height: 39px;
+      width: 40px;
+      border-radius: 50%!important;
+      color: #fff;
+      border-color: #f2f2f2!important;
+    }
+
+    .quadradoBack{
+      padding-top: 50px;
+      background: #f2f2f2;
+      height: 100%;
+      border-radius: 15px;
+    }
+
+    @media (max-width: 770px){
+      .quadradoBack{
+        padding-top: 50px;
+        padding-bottom: 50px;
+        background: #f2f2f2;
+        height: 100%;
+        border-radius: 15px;
+      }
+     }
+    .formBack {
+        color: #111111;
+        background-color: #f2f2f2;
+        width: 100%;
+        margin-bottom: 10px; 
+        padding: 10px 12px;
+    }
+
+    input {
+        outline: none;
+        border: none;
+    }  
+    
+    textarea{
+        outline: none;
+        border: none; 
+        height: 100px;
+    }
+    
+    .backContato{     
+      padding-top: 25px;
+      padding-bottom: 25px;
+      background: #e8e8e8fa;
+    } 
+    
+    .btn-outline-info:hover {
+      color: #fff!important;;
+      background-color: #00a9a0!important;
+      border-color: #00a9a0!important;
+  }
+  .btn-outline-info {
+    color: #00a9a0!important;
+    border-color: #00a9a0!important;
+}
+    /*FIM CONTATO*/
+
+
+    /*DEPOIMENTOS*/
+    .backDepoimentos{
+        background:#20a79f;
+        min-height: 250px;
+    }
+    
+
+    .fontDepoimento{
+        color: #fff;
+        font-style: italic;
+        font-size: 20px;
+    }
+
+    .titleDepoimento{
+        color: #fff;
+        text-align: center;
+    }
+
+    .fa-quote-left{
+        content: "\f10d";
+        font-size: 20px;
+    }
+
+    /*FIM DEPOIMENTOS*/
+
+    .scrollTop{
+      position: fixed;
+      width: 50px;
+      height: 50px;
+      background: #00a9a0;
+      bottom: 40px;
+      right: 50px;
+      text-decoration: none;
+      text-align: center;
+      line-height: 50px;
+      color: white;
+      font-size: 22px;
+      border-radius: 50%;
+    } 
+
+  
+    @media (max-width: 1100px){
+      .scrollTop{
+        display: none;
+      }
+     }
+
+
+/*MENU https://www.markuptag.com/how-to-create-a-responsive-header-html-with-bootstrap-4/ */
+
